@@ -1699,7 +1699,7 @@ ORDER by p.product_date_modified DESC
 	<cfargument name="cat_id" default="0" type="numeric" required="false"
 				hint="if relate_cats is true, provide category ID to retrieve secondaries only related to that category">
 
-	<cfargument name="nav_only" default="true" type="numeric" required="false"
+	<cfargument name="nav_only" default="true" type="any" required="false"
 				hint="If false, includes categories with category_nav = 0 (default is true)">
 
 <cfset var rsCats = "">
