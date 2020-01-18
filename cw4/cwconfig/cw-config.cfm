@@ -18,7 +18,7 @@ Handles Datasource Settings for Application DSN Connection
 <!--- ENTER THESE VALUES FOR YOUR DSN CONNECTION --->
 <!--- //////////// --->
 
-<cfset request.cwapp.datasourcename = "">
+<cfset request.cwapp.datasourcename = "buysellgo.com">
 <!--- name of your ColdFusion datasource (DSN) --->
 
 <cfset request.cwapp.datasourceusername = "">
