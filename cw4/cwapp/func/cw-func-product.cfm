@@ -1631,7 +1631,7 @@ ORDER by p.product_date_modified DESC
 <cffunction name="CWquerySelectCategories" access="public" output="false" returntype="query"
 			hint="Returns all active categories, along with number of products in each">
 
-	<cfargument name="show_empty" default="#application.cw.appDisplayEmptyCategories#" type="numeric" required="false"
+	<cfargument name="show_empty" default="#application.cw.appDisplayEmptyCategories#" type="any" required="false"
 				hint="Set to false to return all categories, regardless of products">
 
 	<cfargument name="nav_only" default="true" type="numeric" required="false"
