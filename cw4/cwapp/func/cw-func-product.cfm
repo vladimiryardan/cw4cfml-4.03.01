@@ -1634,7 +1634,7 @@ ORDER by p.product_date_modified DESC
 	<cfargument name="show_empty" default="#application.cw.appDisplayEmptyCategories#" type="any" required="false"
 				hint="Set to false to return all categories, regardless of products">
 
-	<cfargument name="nav_only" default="true" type="numeric" required="false"
+	<cfargument name="nav_only" default="true" type="any" required="false"
 				hint="If false, includes categories with category_nav = 0 (default is true)">
 
 	<cfset var rsCats = "">
