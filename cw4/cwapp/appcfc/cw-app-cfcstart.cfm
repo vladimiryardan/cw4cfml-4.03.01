@@ -21,4 +21,4 @@ Global ColdFusion application settings, used in Application.cfc
 <!--- time out settings for individual sessions --->
 <cfset this.sessionTimeout = createTimeSpan(0,0,30,0)>
 <!--- disable client cookies for PCI compliance --->
-<cfset this.setClientCookies = false />
+<cfset this.setClientCookies = true />
